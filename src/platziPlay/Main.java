@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Platzi play");
         Pelicula p1 = new Pelicula("Matrix", "Lo mejor de lo mejor",1,
                "Accion",20218,true);
-       p1.calificar(3.7F);
+       p1.calificar(3.7);
 
         Usuario u1 = new Usuario("Juan pablo jimenez");
 

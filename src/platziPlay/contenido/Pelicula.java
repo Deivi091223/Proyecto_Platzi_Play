@@ -1,12 +1,14 @@
 package platziPlay.contenido;
 
+import java.math.BigDecimal;
+
 public class Pelicula {
     private String titulo;
     private String descripcion;
     private int duracion;
     private String genero;
     private int anioDeEstreno;
-    private float calificacion;
+    private double calificacion;
     private boolean disponible;
 
     public  Pelicula(String titulo, String descripcion, int duracion, String genero,
@@ -32,7 +34,7 @@ public class Pelicula {
                 + calificacion;
     }
 
-    public void calificar(float calificacion) {
+    public void calificar(double calificacion) {
         if (calificacion >= 0 && calificacion <=5) {
             this.calificacion = calificacion;
         }
